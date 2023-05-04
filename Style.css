@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin : 0 auto;
+        }
+img{
+    width: 50%;
+    border: 1px solid black;
+    min-width: 400px;}
+form{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+    width: 48%;
+    border: 1px solid black;
+    min-width: 400px;
+    }
+
+div>label{
+        display:block;
+        width:100px;
+         }
+div>input{
+        width:100%;
+         }
+.envoyer{
+       width: 100%;
+       background-color: blueviolet;
+       color: white; 
+        }
+.champs{
+       width: 100%;
+        }
